@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{1F84DC55
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint2.Task0.V14", "Tyuiu.PasechnikPA1.Sprint2.Task0.V14\Tyuiu.PasechnikPA1.Sprint2.Task0.V14.csproj", "{5B3E502A-1399-44F2-AB44-CDA2145646C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint2.Task0.V14.Lib", "Tyuiu.PasechnikPA1.Sprint2.Task0.V14.Lib\Tyuiu.PasechnikPA1.Sprint2.Task0.V14.Lib.csproj", "{070FDF67-0856-479D-9636-6F528E8AB7F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PasechnikPA1.Sprint2.Task0.V14.Test", "Tyuiu.PasechnikPA1.Sprint2.Task0.V14.Test\Tyuiu.PasechnikPA1.Sprint2.Task0.V14.Test.csproj", "{79C161DC-E9E1-4136-9914-0DF6FB95374C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,21 @@ Global
 		{5B3E502A-1399-44F2-AB44-CDA2145646C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B3E502A-1399-44F2-AB44-CDA2145646C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B3E502A-1399-44F2-AB44-CDA2145646C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070FDF67-0856-479D-9636-6F528E8AB7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070FDF67-0856-479D-9636-6F528E8AB7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070FDF67-0856-479D-9636-6F528E8AB7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070FDF67-0856-479D-9636-6F528E8AB7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C161DC-E9E1-4136-9914-0DF6FB95374C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C161DC-E9E1-4136-9914-0DF6FB95374C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C161DC-E9E1-4136-9914-0DF6FB95374C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C161DC-E9E1-4136-9914-0DF6FB95374C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5B3E502A-1399-44F2-AB44-CDA2145646C3} = {1F84DC55-5E95-40CC-B9C6-5AEC180D8963}
+		{070FDF67-0856-479D-9636-6F528E8AB7F7} = {1F84DC55-5E95-40CC-B9C6-5AEC180D8963}
+		{79C161DC-E9E1-4136-9914-0DF6FB95374C} = {1F84DC55-5E95-40CC-B9C6-5AEC180D8963}
 	EndGlobalSection
 EndGlobal
