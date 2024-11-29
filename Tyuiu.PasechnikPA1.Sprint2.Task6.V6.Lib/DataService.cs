@@ -24,7 +24,7 @@ namespace Tyuiu.PasechnikPA1.Sprint2.Task6.V6.Lib
                 case 9: res2 = "Девятка"; break;
                 case 10: res2 = "Десятка"; break;
                 case 11: res2 = "Валет"; break;
-                case 12: res2 = "Дама"; break;
+                case 12: res2 = "дама"; break;
                 case 13: res2 = "Король"; break;
                 case 14: res2 = "Туз"; break;
                 default: res2 = "Неподходящее значение для переменной"; break;
