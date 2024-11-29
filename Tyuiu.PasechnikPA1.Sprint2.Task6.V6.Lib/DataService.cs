@@ -9,7 +9,7 @@ namespace Tyuiu.PasechnikPA1.Sprint2.Task6.V6.Lib
             string res1;
             switch (value1)
             {
-                case 1: res1 = "пики"; break;
+                case 1: res1 = "пик"; break;
                 case 2: res1 = "трефы"; break;
                 case 3: res1 = "бубны"; break;
                 case 4: res1 = "червы"; break;
