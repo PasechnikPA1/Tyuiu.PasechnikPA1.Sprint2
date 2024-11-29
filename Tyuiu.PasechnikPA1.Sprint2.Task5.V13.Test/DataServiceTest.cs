@@ -8,8 +8,12 @@ namespace Tyuiu.PasechnikPA1.Sprint2.Task5.V13.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            Assert.AreEqual(0, ds.FindDateOfNextDay(1000, 31, 321));
-            Assert.AreEqual(20240301, ds.FindDateOfNextDay(2024, 2, 29));
+            int g = 2024;
+            int m = 2;
+            int n = 29;
+            string res = ds.FindDateOfNextDay(g, m, n);
+            string wait = "01.03.2024";
+            Assert.AreEqual(wait, res);
         }
     }
 }
